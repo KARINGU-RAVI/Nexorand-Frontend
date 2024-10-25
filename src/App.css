@@ -1,0 +1,167 @@
+/* App Container */
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Header */
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Modal Button */
+.modal-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  background-color: #21a1f1;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Content */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links a, .navbar-logout {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.navbar-links a:hover, .navbar-logout:hover {
+  color: #61dafb;
+  cursor: pointer;
+}
+
+.navbar-user {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.navbar-logout {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Centering the registration page */
+.registration-page {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button styles */
+button {
+  padding: 10px;
+  background-color: #5cb85c; /* Bootstrap's success color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #4cae4c; /* Darker shade for hover */
+}
+
+/* Alert styles */
+.alert {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
